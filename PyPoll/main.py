@@ -10,7 +10,7 @@ winner = 0
 with open(Resource_Path) as opened_file: #open file
     reader = csv.reader(opened_file) #read file
 
-    next(reader) #skips the header
+    header = next(reader) #skips the header
   
 
     for row in reader:

@@ -12,7 +12,7 @@ months = 0
 
 with open(CSV_PATH) as opened_file: #open file
     reader = csv.reader(opened_file) #read file
-    next(reader) #skip header 
+    header = next(reader) #skip header 
     
 
     for row in reader:
