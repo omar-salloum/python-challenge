@@ -60,7 +60,7 @@ print(f"Greatest Increase in Profits: {max_date} (${max})")
 print(f"Greatest Decrease in Profits: {min_date} (${min})")
 
 
-Results_Path = os.path.join("Results_PyBank.txt") #set path for new txt file 
+Results_Path = os.path.join("analysis", "Results_PyBank.txt") #set path for new txt file 
 
 with open(Results_Path, "w") as opened_file: #open file
     writer = csv.writer(opened_file) #write file
