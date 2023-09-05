@@ -2,7 +2,7 @@
 Module 3 Challenge 
 
 #Description
-  This project consisted of two main components. PyBank and PyPoll.
+  - This project consisted of two main components. PyBank and PyPoll.
   
   In the PyBank component, I analyzed the financial records of my organization and recorded key financial insights over this time period.
   This included my companies net profit, the average change in profits per period as well as the biggest profits and losses during this time frame.
@@ -20,7 +20,7 @@ Module 3 Challenge
      
 
 #Credits
-  PyPoll - A complete list of candidates who received votes
+  - PyPoll - A complete list of candidates who received votes
     - I used the AskBCS Learning Assistant to receive help for this portion. They gave me the idea to add each candidate into a list. 
 
 
